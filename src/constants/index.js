@@ -106,7 +106,7 @@ const techStack = [
     },
     {
         category: "Mobile",
-        items: ["React Native", "Expo"],
+        items: ["React Native", "Expo", "Flutter"],
     },
     {
         category: "Styling",
@@ -118,7 +118,7 @@ const techStack = [
     },
     {
         category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        items: ["MongoDB", "PostgreSQL", "SqlServer"],
     },
     {
         category: "Dev Tools",
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Ecommerce Mobile Application",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -233,25 +233,25 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "OK Zimbabwe Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
+                        "OK Zimbabwe eCommerce mobile application is a sleek and modern platform designed for shopping shopping groceries and housewares.",
                         "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "Think of it like walking into a store—but right from your phone.",
+                        "It's built with Dart and Flutter, ensuring fast performance, responsive design, and a clean, premium look.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "OK Zimbabwe",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "...",
                     position: "top-10 right-20",
                 },
                 {
@@ -278,7 +278,7 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Driver Competence Management System",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -286,30 +286,30 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "DCMS.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "Driver Competence Management System is a smart web platform that helps law enforcers track and record offenses instantly.",
+                        "Instead of recording in log book, you are allowed to capture and search for driver's records.",
+                        "Think of it like having an application that allows you to track and capture or records about drivers, and see all offenses that the driver has committed in different status.",
+                        "It's built with Node.js, MongoDB,  Express.js and ReactJS, so it runs fast, looks professional, and works seamlessly on any device.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "driver-competence-app.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "/",
                     position: "top-20 left-20",
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "dcms.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -331,7 +331,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Audit App",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,30 +339,30 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Audit Tracker Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
+                        "Our Audit Tracker is a fast and convenient way to log tickets for all OK Zim Branches.",
+                        "Instead of writing in an excel document, you can browse, capture tickets, and track resolutions in real time.",
                         "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "It’s built with Dart, Flutter, Java Spring Boot so it works smoothly on both Mac and Windows with a clean, modern design.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "audit-tracking-app.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "audit-tracking-app.com.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -427,8 +427,8 @@ const ABOUT_LOCATION = {
             subtitle: "Meet the Developer Behind the Code",
             image: "/images/adrian.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
+                "Hey! I’m Zvidzai 👋, a software engineer who enjoys building sleek, interactive applications that actually work well.",
+                "I specialize in JavaScript, Java, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
                 "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
                 "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
             ],

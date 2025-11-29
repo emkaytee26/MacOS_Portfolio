@@ -3,7 +3,7 @@ import gsap from "gsap";
 import {useGSAP} from "@gsap/react";
 
 const FONT_WEIGHTS = {
-    subtitle: {min: 100, max: 600, default: 100},
+    subtitle: {min: 100, max: 400, default: 100},
     title: {min: 400, max: 900, default: 400},
 }
 
@@ -24,7 +24,7 @@ const setupTextHover = (container, type) => {
     const letters = container.querySelectorAll("span");
     const {min, max, default: base} = FONT_WEIGHTS[type];
 
-    const animateLetter = (letter, weight, duration = 0.35) => {
+    const animateLetter = (letter, weight, duration = 0.20) => {
         return gsap.to(letter, {
             duration,
         ease: "power2.out",
@@ -38,7 +38,7 @@ const setupTextHover = (container, type) => {
         letters.forEach((letter) => {
             const {left: l, width: w} = letter.getBoundingClientRect();
             const distance = Math.abs(mouseX - (l - left + w /2));
-            const intensity = Math.exp(-(distance ** 2)  / 40000);
+            const intensity = Math.exp(-(distance ** 2)  / 20000);
 
             animateLetter(letter, min + (max - min) * intensity);
         });
@@ -72,7 +72,7 @@ const Welcome = () => {
     return (
         <section id="welcome">
             <div>
-                <img src="/public/images/profile-1.jpg" alt="profile image"
+                <img src="/images/profile-1.jpg" alt="profile image"
                      className="rounded-full border-10 m-10 size-44" />
             </div>
             <p ref={subtitleRef}>
@@ -82,7 +82,7 @@ const Welcome = () => {
                 {renderText("portfolio", 'text-9xl italic font-georama', 400)}</h1>
 
             <div className="small-screen">
-                <p>This Portfolio is designed for Desktop/ Tablets screens only</p>
+                <p className="m-2">This Portfolio is designed for Desktop/ Tablets screens only</p>
             </div>
         </section>
     )
