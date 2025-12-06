@@ -102,19 +102,19 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        items: ["React.js", "Visual Basic", "Vaadin"],
     },
     {
         category: "Mobile",
-        items: ["React Native", "Expo", "Flutter"],
+        items: ["React Native", "Java", "Flutter"],
     },
     {
         category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["Tailwind CSS", "Bootstrap", "CSS"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Node.js", "Express.js", "Spring Boot"],
     },
     {
         category: "Database",
@@ -132,28 +132,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://https://github.com/emkaytee26",
     },
     {
         id: 2,
         text: "Platform",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "https://emakatee26.com/",
     },
     {
         id: 3,
         text: "Twitter/X",
         icon: "/icons/twitter.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://x.com/mktSTYLEZ",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/zvidzai-mukarati-328aa9172/",
     },
 ];
 
