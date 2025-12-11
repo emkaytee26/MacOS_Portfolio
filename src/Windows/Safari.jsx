@@ -1,13 +1,13 @@
 import {ChevronLeft, ChevronRight, Copy, MoveRight, PanelLeft, Plus, Search, Share, ShieldHalf} from "lucide-react";
 import WindowWrapper from "#hoc/WindowWrapper.jsx";
-import {WindowsControls} from "#components/index.js";
+import {WindowControls} from "#components/index.js";
 import {blogPosts} from "#constants/index.js";
 
 const Safari = () => {
     return (
         <>
             <div id="window-header">
-                <WindowsControls target="safari"/>
+                <WindowControls target="safari"/>
 
                 <PanelLeft className="ml-10 icon"/>
 

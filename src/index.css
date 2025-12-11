@@ -18,10 +18,13 @@ body {
     0% {
         background-image: url("/images/wallpaper.jpg");
     }
-    33.33% {
+    25%  {
+            background-image: url("/images/wallpaper-1.jpg");
+        }
+    50% {
         background-image: url("/images/wallpaper-2.jpg");
     }
-    66.66% {
+    75.66% {
         background-image: url("/images/wallpaper-3.jpg");
     }
     100% {

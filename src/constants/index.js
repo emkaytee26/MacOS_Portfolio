@@ -132,14 +132,14 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://https://github.com/emkaytee26",
+        link: "https://github.com/emkaytee26?tab=repositories",
     },
     {
         id: 2,
         text: "Platform",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://emakatee26.com/",
+        link: "/",
     },
     {
         id: 3,
@@ -233,13 +233,13 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "OK Zimbabwe Project.txt",
+                    name: "ok-online.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "OK Zimbabwe eCommerce mobile application is a sleek and modern platform designed for shopping shopping groceries and housewares.",
+                        "OK Zimbabwe E-Commerce mobile application is a sleek and modern platform designed for shopping shopping groceries and housewares.",
                         "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
                         "Think of it like walking into a store—but right from your phone.",
                         "It's built with Dart and Flutter, ensuring fast performance, responsive design, and a clean, premium look.",
@@ -256,12 +256,12 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "online-store.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
+                    imageUrl: "/images/project-1.jpg",
                 },
                 {
                     id: 5,
@@ -286,7 +286,7 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "DCMS.txt",
+                    name: "dcms.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
@@ -294,7 +294,8 @@ const WORK_LOCATION = {
                     description: [
                         "Driver Competence Management System is a smart web platform that helps law enforcers track and record offenses instantly.",
                         "Instead of recording in log book, you are allowed to capture and search for driver's records.",
-                        "Think of it like having an application that allows you to track and capture or records about drivers, and see all offenses that the driver has committed in different status.",
+                        "Think of it like having an application that allows you to track and capture or records about drivers, " +
+                        "and see all offenses that the driver has committed in different status.",
                         "It's built with Node.js, MongoDB,  Express.js and ReactJS, so it runs fast, looks professional, and works seamlessly on any device.",
                     ],
                 },
@@ -314,7 +315,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
+                    imageUrl: "/images/project-2.jpg",
                 },
                 {
                     id: 5,
@@ -339,7 +340,7 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Audit Tracker Project.txt",
+                    name: "audit-app.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
@@ -397,7 +398,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/zvidzai.jpg",
         },
         {
             id: 2,
@@ -406,16 +407,16 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/zvidzai-2.jpg",
         },
         {
             id: 3,
-            name: "conference-me.png",
+            name: "home-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/zvidzai-3.jpg",
         },
         {
             id: 4,
@@ -425,12 +426,13 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/zvidzai.jpg",
             description: [
-                "Hey! I’m Zvidzai 👋, a software engineer who enjoys building sleek, interactive applications that actually work well.",
-                "I specialize in JavaScript, Java, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Zvidzai 👋, a software engineer passionate about building sleek, interactive applications that perform beautifully.",
+                "I specialize in JavaScript, Java, React, and Next.js—and I focus on creating experiences that are smooth, fast, and just a little bit delightful.",
+                 "I care deeply about clean UI, intuitive UX, and writing code that’s easy to maintain and debug.",
+                "Outside of development, you’ll often find me refining layouts late at night",
+                "enjoying a strong cup of coffee, or exploring the latest gadgets I’ve convinced myself I need 😅"
             ],
         },
     ],
