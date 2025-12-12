@@ -73,7 +73,7 @@ const Welcome = () => {
         <section id="welcome">
             <div>
                 <img src="/images/profile-1.jpg" alt="profile image"
-                     className="rounded-full border-10 m-10 size-56" />
+                     className="rounded-full border-10 m-10 h-52 w-54" />
             </div>
             <p ref={subtitleRef}>
                 {renderText("Greetings, Zvidzai here! Welcome to my",

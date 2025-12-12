@@ -77,25 +77,25 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
+        date: "Nov 18, 2025",
         title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/gal2.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+            "Graduation Day! Celebrating My Journey in Management Information Systems",
+        image: "/images/blog1.jpg",
+        link: "https://www.linkedin.com/posts/zvidzai-mukarati-328aa9172_graduation-managementinformationsystems-mis-activity-7395869363834204160-yILU?utm_source=share&utm_medium=member_desktop&rcm=ACoAACkYwJABXDig5XsCSNjtk-idQWmRmwGILb0",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/gal2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        date: "Oct 28, 2025",
+        title: "Software Development meets Data Analytics: User Access Review Dashboard with Power BI, SQL and DAX",
+        image: "/images/blog2.jpg",
+        link: "https://www.linkedin.com/posts/zvidzai-mukarati-328aa9172_softwaredevelopment-powerbi-dax-activity-7372406363995586561-OG69?utm_source=share&utm_medium=member_desktop&rcm=ACoAACkYwJABXDig5XsCSNjtk-idQWmRmwGILb0",
     },
     {
         id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/gal2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        date: "May 5, 2025",
+        title: "Meta Front-End Developer Professional Certificate: My Journey in Front-End Development",
+        image: "/images/blog3.jpg",
+        link: "https://www.coursera.org/account/accomplishments/professional-cert/6UEYNMH09VJB",
     },
 ];
 

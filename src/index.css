@@ -11,10 +11,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: slideshow 30s infinite;
+    background-image: url("/images/wallpaper.jpg");
 }
 
-@keyframes slideshow {
+/* @keyframes slideshow {
     0% {
         background-image: url("/images/wallpaper.jpg");
     }
@@ -30,7 +30,7 @@ body {
     100% {
         background-image: url("/images/wallpaper-4.jpg");
     }
-}
+} */
 
 
 @theme {
